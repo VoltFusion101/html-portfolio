@@ -1,0 +1,15 @@
+html{
+    background-color:rgb(203, 214, 219);
+}
+
+h1{
+    color: rgb(213, 95, 135);
+}
+.note{
+    text-align: center;
+}
+
+
+h2[value="2"]{
+    color: rgb(59, 45, 15);
+}
