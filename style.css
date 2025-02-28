@@ -10,10 +10,26 @@ html{
 h2[value="2"]{
     color: rgb(59, 45, 15);
 }
-h1{
+#portfolio{
     font-family:"Dancing Script", cursive; ;
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: bold;
     color: black;
     text-align: left;
+    background-color: transparent;
+    width: 250px;
+    height: 100px;
+    padding: 0%;
+    margin-left: 10px;
+}
+
+#menu{
+    color: black;
+    font-weight: 900;
+    font-size: 25px;
+    margin: 0;
+}
+#home{
+    color: green;
+    text-align: right;
 }
