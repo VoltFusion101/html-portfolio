@@ -2,34 +2,59 @@ html{
     background:linear-gradient(to right, #ebe5ed 2%,#adbec8 40%, #4c8492 96%);
 }
 
-.note{
-    text-align: center;
-}
-
 
 h2[value="2"]{
     color: rgb(59, 45, 15);
 }
+
+.header{
+    display: inline;
+
+}
+
 #portfolio{
-    font-family:"Dancing Script", cursive; ;
+    font-family:"Dancing Script", cursive;
     font-size: 6rem;
     font-weight: bold;
     color: black;
-    text-align: left;
-    background-color: transparent;
-    width: 250px;
-    height: 100px;
-    padding: 0%;
     margin-left: 10px;
 }
 
+
+
 #menu{
-    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
     font-weight: 900;
-    font-size: 25px;
-    margin: 0;
+    background-color: pink;
+    text-align: right;
+
 }
-#home{
-    color: green;
+
+
+#aboutme{
+    float: left;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 5%;
+    text-align: center;
+    width: 65%;
+    margin-top: 7%;
+}
+
+#tag-name{
+    font-family: "WindSong", cursive;;
+    font-size: 45px;
+}
+
+#picture1{
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
     text-align: right;
 }
+
+.project-class{
+    clear: both;
+}
+
