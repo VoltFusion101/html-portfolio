@@ -2,44 +2,56 @@ html{
     background:linear-gradient(to right, #ebe5ed 2%,#adbec8 40%, #4c8492 96%);
 }
 
-
-h2[value="2"]{
-    color: rgb(59, 45, 15);
-}
-
-.header{
-    display: inline;
-
-}
-
 #portfolio{
+    float: left;
     font-family:"Dancing Script", cursive;
-    font-size: 6rem;
+    font-size: 7rem;
     font-weight: bold;
     color: black;
-    margin-left: 10px;
+    margin-left: 2%;
+    margin-top: 20px;
 }
 
+p[value="home"]{
+    float: right;
+    margin-right: 5%;
+    margin-top: 40px;
+}
+p[value="skill"]{
+    float: right;
+    margin-right: 5%;
+    text-align: center;
+    margin-top: 15px;
+}
+p[value="project"]{
+    float: right;
+    margin-right: 5%;
+    margin-top: 40px;
+}
+p[value="contact"]{
+    float: right;
+    margin-right: 5%;
+    margin-top: 40px;
+}
 
 
 #menu{
+    display: inline;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 900;
-    background-color: pink;
-    text-align: right;
-
 }
 
 
 #aboutme{
+    clear: both;
     float: left;
     font-size: 25px;
     font-weight: 500;
-    margin-left: 5%;
     text-align: center;
-    width: 65%;
-    margin-top: 7%;
+    width:60%;
+    margin-left: 5%;
+    margin-top: 2%;
 }
 
 #tag-name{
@@ -50,7 +62,6 @@ h2[value="2"]{
 #picture1{
     float: right;
     margin-right: 5%;
-    margin-top: 5%;
     text-align: right;
 }
 
