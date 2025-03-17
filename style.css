@@ -29,27 +29,24 @@ html{
     margin-top: 50px;
 }
 
+.introduce{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    margin-top: -2%;
+}
 #aboutme{
-    clear: both;
-    float: left;
     font-size: 25px;
     font-weight: 500;
     text-align: center;
     width:60%;
     margin-left: 5%;
-    margin-top: 2%;
+
 }
 
 #tag-name{
     font-family: "WindSong", cursive;;
     font-size: 45px;
-}
-
-#picture1{
-    float: right;
-    margin-right: 5%;
-    text-align: right;
-    width: 300px;
 }
 
 
@@ -83,20 +80,23 @@ html{
         flex-direction: column-reverse;
         text-align: center;
         margin-top: 10%;
-     
         width: 100%;
     }
 
     #picture1 >img{
         width: 50%;
         text-align: center;
-        background-color: black;
     }
 
     #aboutme{
         text-align: center;
-
         width: 90%;
+        font-size: 15px;
+        margin-top: -10%;
+    }
+
+    #tag-name{
+        font-size: 20px;
     }
 
 
