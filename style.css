@@ -1,6 +1,7 @@
 html{
     background:linear-gradient(to right, #ebe5ed 2%,#adbec8 40%, #4c8492 96%);
 }
+
 .paint-header{
     position: absolute;
 }
@@ -27,6 +28,7 @@ html{
     display: flex;
     gap: 100px;
     margin-top: 50px;
+    justify-content: flex-end;
 }
 
 .introduce{
@@ -41,7 +43,6 @@ html{
     text-align: center;
     width:60%;
     margin-left: 5%;
-
 }
 
 #tag-name{
@@ -60,8 +61,7 @@ html{
     }
 
     #portfolio{
-        text-align: center;
-      
+        text-align: center;  
     }
 
     #menu{
@@ -69,10 +69,10 @@ html{
         gap: 30px;
         font-size: small;
         text-align: center;
-  
         margin-left: 2%;
         margin-right: 2%;
         margin-top: -20%;
+        justify-content: space-between;
     }
 
     .introduce{
@@ -98,6 +98,116 @@ html{
     #tag-name{
         font-size: 20px;
     }
+}
 
 
+@media (min-width:501px) and (max-width:999px){
+    .paint-header{
+    width: 100%;
+    text-align: center;
+    }
+    .header{
+        display: flex;
+        gap: 2px;
+        flex-direction: column;
+        column-gap: 2px;
+        text-align: center;
+    }
+
+    #portfolio{
+        text-align: center;  
+    }
+
+    #menu{
+        display: flex;
+        gap: 40px;
+        font-size: small;
+        text-align: center;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: -8%;
+        justify-content: space-between;
+        font-size: 16px;
+    }
+
+    .introduce{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 10%;
+        width: 100%;
+        margin-top: 2%;
+        gap: 2px;
+    }
+
+    #picture1 >img{
+        background-color: green;
+        width: 30%;
+    }
+
+    #aboutme{
+        text-align: center;
+        width: 90%;
+        font-size: 20px;
+    }
+
+    #tag-name{
+        font-size: 30px;
+    }
+}
+
+
+@media (min-width:1000px) and (max-width:1200px){
+    .paint-header{
+    width: 100%;
+    text-align: center;
+    }
+    .header{
+        display: flex;
+        gap: 2px;
+        flex-direction: column;
+        column-gap: 2px;
+        text-align: center;
+    }
+
+    #portfolio{
+        text-align: center;  
+    }
+
+    #menu{
+        display: flex;
+        gap: 40px;
+        font-size: small;
+        text-align: center;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: -8%;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+
+    .introduce{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 10%;
+        width: 100%;
+        gap: 2%;
+        margin-top: 2%;
+    }
+
+    #picture1 >img{
+        width: 65%;
+        background-color: green;
+    }
+
+    #aboutme{
+        text-align: center;
+        width: 70%;
+        font-size: 20px;
+    }
+
+    #tag-name{
+        font-size: 30px;
+    }
 }
