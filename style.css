@@ -4,6 +4,8 @@ html{
 
 .paint-header{
     position: absolute;
+    opacity: 65%;
+
 }
 
 .header{

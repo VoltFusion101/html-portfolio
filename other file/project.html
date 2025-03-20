@@ -3,23 +3,146 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>About Nia</title>
-    <link rel="stylesheet" href="./project.css"/>
+    <title>Projects</title>
+    <style>
 
+    html{
+    background:linear-gradient(to right, #ebe5ed 2%,#adbec8 40%, #4c8492 96%);
+    }
+    
+    h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+        font-size: 4rem;
+        position: relative;
+        text-align: end;
+        margin-right: 3%;
+    }
+    h2{
+        text-align: center;
+        font-size: 3rem;
+        font-style: oblique;
+        font-style: italic;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 2rem;
+
+    }
+    img{
+        width: 150px;
+        padding: 3px;
+        background-color:black;
+    }
+
+    
+    .kitchen-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);;
+        padding: 10px;
+        border-color: black;
+        border-style: solid;
+    }
+    .living-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 10px;
+        border-color: black;
+        border-style: solid;
+    }
+
+    .title-decor{
+        text-align: center;
+       width: 500px;
+    }
+
+    .wall-decor{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+    }
+    
+    .book1-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .item-book1 > img{
+        width: 300px;
+    }
+
+    .github > img{
+        border-radius: 50%;
+        width: 150px;
+    }
+
+    .programming-container{
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+
+    </style>
 </head>
 
 <body>
 
-<h1>Projects</h1>
+<h1 class="project-page">Project</h1>
 
-<p class="note">
-    I am still a beginner in programming and have only worked on a few small learning projects,</br>
-    but I am continuously improving my skills and eager to take on more challenges.</br>
-    
-</p>
-<ul>
-    <li>Art Design</li>
-    <li>Birthday Invitation</li>
-</ul>
+<h2>Programming</h2>
+<div class="programming-container">
+    <a class="github" href="https://github.com/VoltFusion101"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSir9l2CvOJvU9cgabSsvPcnhc72y9nN83-cLIrkq1LYphVPUg5t8qR423GryfRBGLAoWk&usqp=CAU" alt="Github Icon" ></a></a>
+</div>
+<h2>Design</h2>
+<h3 class="title-art">Wall Decor Design</h3>
+<div class="wall-decor">
+    <p></p>
+    <div class="title-decor"><h3>Kitchen</h3> 
+        <div class="kitchen-container">
+            <p class="item-kitchen"><img src="../picture/art project/1.jpg"
+                alt="Kitchens should be designed around what’s  truly important—fun, food, and life"></a></p>
+            <p class="item-kitchen"><img src="../picture/art project/2.jpg" 
+                alt="First we eat, then we do everything else"></a></p>
+            <p class="item-kitchen"><img src="../picture/art project/3.jpg" 
+                alt="Cooking is an art, but all art requires knowing something about the techniques and materials"></a></p>
+            <p class="item-kitchen"><img src="../picture/art project/6.jpg" 
+                alt="Coffee Day"></a></p>
+            <p class="item-kitchen"><img src="../picture/art project/7.jpg"
+                alt="But First, Coffee"></a></p>
+            <p class="item-kitchen"><img src="../picture/art project/10.jpg"
+                alt="The secret ingredient is always love"></a></p> 
+        </div>
+    </div>
+    <div class="title-decor"><h3>Living Room</h3> 
+            <div class="living-container">
+                <p class="item-living"><img src="../picture/art project/1.jpg"
+                    alt="Kitchens should be designed around what’s  truly important—fun, food, and life"></a></p>
+                <p class="item-living"><img src="../picture/art project/2.jpg" 
+                    alt="First we eat, then we do everything else"></a></p>
+                <p class="item-living"><img src="../picture/art project/3.jpg" 
+                    alt="Cooking is an art, but all art requires knowing something about the techniques and materials"></a></p>
+                <p class="item-living"><img src="../picture/art project/6.jpg" 
+                    alt="Coffee Day"></a></p>
+                <p class="item-living"><img src="../picture/art project/7.jpg"
+                    alt="But First, Coffee"></a></p>
+                <p class="item-living"><img src="../picture/art project/10.jpg"
+                    alt="The secret ingredient is always love"></a></p> 
+            </div>
+        </div>
+</div>
+<h3 class="title-art">Book Cover Design</h3>
+<div class="book-cover">
+    <p></p>
+        <div class="book1-container">
+            <p class="item-book1"><img src="../picture/art project/Book Cover/1.jpg"
+                alt="Where The Wind Will Take Me - Front Cover"></a></p>
+            <p class="item-book1"><img src="../picture/art project/Book Cover/2.jpg"
+                alt="Where The Wind Will Take Me -Back Cover"></a></p>
+        </div>
+
 </body>
 </html>
