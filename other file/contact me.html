@@ -3,11 +3,112 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Contact Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+
+    html{
+    background:linear-gradient(to right, #ebe5ed 2%,#adbec8 40%, #4c8492 96%);
+    }
+
+    .paint-header{
+    position: absolute;
+    opacity: 65%;
+    }
+
+    .header{
+        display: flex;
+        gap: 100px;
+        position: relative;
+    }
+
+    #portfolio{
+        font-family:"Dancing Script", cursive;
+        font-size: 7rem;
+        font-weight: bold;
+        color: black;
+        margin-left: 2%;
+        margin-top: 20px;
+    }
+
+    #menu{
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 900;
+        display: flex;
+        gap: 100px;
+        margin-top: 50px;
+        justify-content: flex-end;
+        text-align: center;
+    }
+
+    p[value="contact"]{
+        background-color: transparent;
+        color: black;
+        opacity: 20%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .sentences{
+        font-family: "Unkempt", cursive;
+        font-weight: bolder;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: -20px;
+    }
+
+    .three-dots{
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.757);
+    }
+
+    .images-link{
+        display: flex;
+        gap: 150px;
+        justify-content: center;
+        align-items: end;
+    }
+    
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Teko:wght@300..700&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unkempt:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<img src="../picture/qr code whatsapp.jpg" alt="QR Code Whatsapp" width="100"/><br/>
-<a href="https://wa.me/qr/GWDO4KPIQVKXD1">My Whatsapp</a>
+    <div class="paint-header">
+        <img src="../picture/paint1.png" width="500px">
+    </div>
+    <div class="header">
+        <p id="portfolio">Portfolio</p>
+        <div id="menu">
+            <p value="home"><a href="../index.html" alt="Home Tab"> HOME </a></p>
+            <p value="skill"><a href="../other file/skill experience.html" alt="Skill and Experience Tab">SKILL & EXPERIENCE</a></p>
+            <p value="project"><a href="../other file/project.html" alt="Project Tab"> PROJECT </a></p>
+            <p value="contact"><a href="../other file/contact me.html" alt="Contact Tab">CONTACT</a></p>
+        </div>
+    </div>
+    <div class="content">
+        <p class="sentences">Creativity starts with a conversation.</br>
+            Have a project in mind?</br>
+            Let’s create something amazing together!</br>
+            Feel free to reach out.
+        </p>
+        <p class="three-dots">☻☻☻☻☻☻</p>
+        <div class="images-link">
+            <img class="email" src="../picture/email.png" alt="email" width="70px"></a>
+            <img class="call" src="../picture/call.png" alt="call" width="70px"></a>
+            <img class="linkedin" src="../picture/linkedin.png" alt="linkedin" width="70px"></a>
+        </div>
+
+    </div>
 </body>
 </html>
