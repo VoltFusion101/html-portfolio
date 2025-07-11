@@ -3,41 +3,211 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Birthday Invitation</title>
     <style>
-        html{
-            background-color: rgb(216, 203, 212);
+        body{
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: -2%;
         }
+
+         h1{
+            color: rgba(172, 136, 28, 0.736);
+            font-family: "Great Vibes", cursive;
+            font-weight: lighter;
+            position: static;
+        } 
+
+        h2{
+            font-family: "Great Vibes", cursive;
+            font-weight: 20%;
+            color: rgb(201, 113, 113)
+        } 
+        
+        .caption{
+            font-size: larger;
+            color:rgb(201, 113, 113);
+        }
+
+        .detail-info{
+                text-align: center;
+                color:rgb(201, 113, 113);
+                font-size: 13px;
+        }
+
+        h4{
+            color:rgb(32, 30, 30);
+        }
+
+
+       @media (min-width: 1000px){
+            html{
+                background-image: url(../picture/hbd2.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+
+            h1{
+                font-size: 90pt;
+                text-align: start;
+                margin-right: 30%;
+            }
+
+            h2{
+                font-size: 40px;
+            }
+            .detail-info{
+                font-size: 15pt;
+            }
+
+        }
+
+        @media (min-width: 800px) and ( max-width: 999px){
+            html{
+                background-image: url(../picture/hbd4.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+
+            h1{
+                font-size: 65pt;
+                text-align: center;
+                margin-left: 30%;
+            }
+
+            h2{
+                font-size: 40px;
+                text-align: center;
+                margin-left: 30%;
+            }
+
+            .caption{
+                text-align: start;
+                margin-left: 30%;
+            }
+            .detail-info{
+                text-align: start;
+                margin-left: 40%;
+                margin-right: 30%;
+            }
+
+            h4{
+                text-align: start;
+                margin-left: 30%;
+            }
+            }
+
+        
+
+        @media (min-width: 601px) and (max-width: 799px){
+            html{
+                background-image: url(../picture/hbd7.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+
+            h1{
+                font-size: 65pt;
+                text-align: center;
+                margin-left: 40%;
+            }
+
+            h2{
+                font-size: 30px;
+                text-align: center;
+                margin-left: 40%;
+            }
+
+            .caption, .detail-info{
+                text-align: center;
+                margin-left: 40%;
+                background-color: rgba(240, 248, 255, 0.558);
+                padding: 2%;
+                border-radius: 2cap;
+            }
+
+            h4{
+                text-align: center;
+                margin-left: 40%;
+            }
+
+
+        }
+
+
+        @media (max-width: 600px){
+            html{
+                background-image: url(../picture/hbd6.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+
+            h1{
+                text-align: center;
+                margin-top: 20%;
+                font-size: 50pt;
+            }
+
+            h2{
+                text-align: center;
+                 }
+
+            .caption{
+                font-size: 15px;
+                text-align: center;
+                padding: 2px;
+                background-color: rgba(240, 248, 255, 0.505);
+            }
+
+            .detail-info{
+                text-align: center;
+                padding: 2px;
+                background-color: rgba(240, 248, 255, 0.505);
+            }
+
+            h4{
+                text-align: center;
+               }
+
+
+         }
+
+
     </style>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<h1>Its My Birthday!!</h1>
-<h2>On the 28th March</h2>
+<h1>Birthday Invitation</h1>
+<h2>Cake, candles, and good vibes — you're invited!</h2>
 
-<img src="https://hips.hearstapps.com/hmg-prod/images/years-old-birthday-cake-to-old-woman-royalty-free-image-1718042584.jpg?crop=0.668xw:1.00xh;0.178xw,0&resize=250:*" alt="Old woman with pink ribbon headband and pink love glasses -Image"/>
-
-<p>
-    Dear my beloved friends.<br/>
-    In this special day, I would like to invite you<br/>
-    to celebrate my birthday with me.<br/>
-    <a href="https://maps.app.goo.gl/tQPVcsiGSAPEx2dj9" >Here the address</a>
-</p>
-<hr/>
-<p>
-    <h3>What to bring :</h3>
-    <ul>
-        <li>Inivitation Card</li>
-        <li>Snack or Cola</li>
-        <li>Ballon with colour you like</li>
-    </ul>
-</p>
-<p>
-    <h3>Dress Code :</h3>
-    <ul>
-        <li>Modis clothes with black or white colour</li>
-    </ul>
+<div class="caption">
+    <p>
+        As I turn the page to a brand new year of life, </br>
+        I’m reminded of how deeply grateful Iam for the moments shared, the memories made,</br>
+        and the people who make life truly meaningful.</br>
+        To mark this beautiful occasion,</br>
+        I’m inviting those dearest to my heart to join me in celebrating another year of growth, gratitude, and grace.</br>
+        Please come and share in an evening filled with joy, laughter, and heartfelt connection as we toast to life, love, and new beginnings.</br>
+        Your presence would be the greatest gift of all.
+    </p>
+</div>
 
 </p>
+
+<div class="detail-info"> <h3>
+        Date    : March, 28 2025</br>
+        Time    : 16.00</br>
+        Loc     : <a href="https://maps.app.goo.gl/tQPVcsiGSAPEx2dj9" >Here the loc</a></br>
+</h3>
+</div>
+<h4>* Please RSVP by this week so I can save you a slice of cake! 🍰</h4>
 </body>
 </html>
